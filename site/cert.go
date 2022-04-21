@@ -20,7 +20,7 @@ func DNSNames(addr string) (dnsNames []string) {
 		}
 	}
 
-    sort.Strings(dnsNames)
+	sort.Strings(dnsNames)
 
 	return
 }
